@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'mono/version'
 
 Gem::Specification.new do |s|
-  s.name        = 'Mono'
+  s.name        = 'mono'
   s.version     = Mono::VERSION
   s.summary     = "Embedding the Mono runtime into your Ruby application."
   s.description = "Embedding the Mono runtime into your Ruby application."
